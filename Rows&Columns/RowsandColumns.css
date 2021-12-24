@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 121px);
+    grid-template-rows: repeat(6, 139px);
+    gap: 10px;
+    background-color: rgb(58, 57, 57);
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    grid-template-areas: 
+        "p1 p1 p1 p1 p2 p2 p3 p3 p4 p4 p4 p4"
+        "p1 p1 p1 p1 p2 p2 p10 p10 p11 p12 p12 p12"
+        "p5 p5 p6 p6 p2 p2 p10 p10 p13 p13 p13 p13"
+        "p5 p5 p7 p7 . . p10 p10 p13 p13 p13 p13"
+        "p8 p8 p8 p8 p9 p9 p9 p9 p13 p13 p13 p13"
+        "p8 p8 p8 p8 p9 p9 p9 p9 p14 p14 p14 p14"
+    }
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14 {
+    border-radius: 5px;
+}
+
+.p1{
+    background-color: indigo;
+    grid-area: p1;
+}
+
+.p2{
+    background-color: green;
+    grid-area: p2;
+    height: 134%;
+}
+
+.p3{
+    background-color: blue;
+    grid-area: p3;
+}
+
+.p4{
+    background-color: green;
+    grid-area: p4;
+}
+
+.p5{
+    background-color: green;
+    grid-area: p5;
+}
+
+.p6{
+    background-color: blue;
+    grid-area: p6;
+}
+
+.p7{
+    background-color: orange;
+    grid-area: p7;
+}
+
+.p8{
+    background-color: green;
+    grid-area: p8;
+}
+
+.p9{
+    background-color: indigo;
+    grid-area: p9;
+}
+
+.p10{
+    background-color: orange;
+    grid-area: p10;
+}
+
+.p11{
+    background-color: blue;
+    grid-area: p11;
+}
+
+.p12{
+    background-color: orange;
+    grid-area: p12;
+}
+
+.p13{
+    background-color: indigo;
+    grid-area: p13;
+}
+
+.p14{
+    background-color: blue;
+    grid-area: p14;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

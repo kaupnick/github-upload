@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyTubeDemo</title>
+    </head>
+    <body>
+        
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./pages/collectionOne.html">Cowboy Protection</a>
+            <a href="./pages/collectionTwo.html">American Freestyle</a>
+            <a href="./pages/collectionThree.html">Cinch World's Toughest</a>
+        </nav>
+        
+        <h1>Add New Video</h1>
+
+        <label for="videoTitle"><strong>Video Title</strong></label>    <br>
+        <input id="videoTitle" name="videoTitle" type="text" placeholder="Name of video">
+        
+        <br><br>
+
+        <label for="description"><strong>Description</strong></label>   <br>
+        <textarea name="description" rows="10" cols="30" placeholder="Describe the video..."></textarea>
+        
+        <br><br>
+
+        <label for="newVideo"><strong>Video</strong></label>   <br>
+        <input id="newVideo" name="newVideo" type="file">
+
+        <br><br>
+
+        <select id="videoLocation" name="videoLocation">
+            <option value="collection1">Collection 1</option>
+            <option value="collection2">Collection 2</option>
+            <option value="collection3">Collection 3</option>
+        </select>
+
+        <br><br>
+
+        <input id="security" name="security" type="radio">
+        <label for="security">Private</label>
+
+        <input id="security" name="security" type="radio">
+        <label for="security">Public</label>
+
+        <br><br>
+        
+        <input id="uploadVid" name="uploadVid" type="submit" value="Upload Video">
+
+
+    </body>
+</html>

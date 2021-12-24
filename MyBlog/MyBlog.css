@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(68, 137, 160);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-family: IM Fell English SC;
+    background-image: url(https://s1.ticketm.net/dam/a/fdf/e86f3e57-cd8d-4e2e-ac03-65439fc31fdf_176641_TABLET_LANDSCAPE_LARGE_16_9.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(23, 84, 104);
+    position:sticky;
+    text-align: center; 
+    float: right;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;   
+    
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    background-color: rgba(68, 137, 160, .75);
+    border: 2px solid rgb(23, 84, 104);
+}
+
+.name {
+    position: relative;
+    left: 325px;
+    top: -150px;
+}
+
+.follow {
+    position: relative;
+    left: 30px;
+    background-color: rgba(68, 137, 160, .75);
+    border-radius: 5px;
+}
+
+.date {
+    position: relative;
+    left: 325px;
+    top: -125px;
+    color: black;
+    opacity: 50%;
+}
+
+.headshot {
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+}
+
+.socialmedia {
+    position:relative;
+    left: 920px;
+}
+
+.about {
+    background-color: rgba(68, 137, 160, .75);
+    border: 2px solid rgb(23, 84, 104);
+}
+
+h3 {
+    background-color: rgb(23, 84, 104);
+    text-align: center;
+}
+
+.clown {
+    text-align: center;
+    color: blue
+}
+
+.bullfighter {
+    text-align: center;
+    color: red;
+}
+
+.barrel {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WTR {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gear {
+    background-color: rgba(68, 137, 160, .75);
+    border: 2px solid rgb(23, 84, 104);
+}
+
+.favorite {
+    background-color: rgba(68, 137, 160, .75);
+    border: 2px solid rgb(23, 84, 104);
+}
+
+.contact {
+    border: 2px solid rgb(23, 84, 104);
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+th{
+    background-color: rgba(68, 137, 160, .75);
+}
+tr{
+    background-color: rgba(68, 137, 160, .75);
+}
+td{
+    border: 1px solid black; width: 600px; height: 400px;
+}
+
+footer {
+    background-color: rgba(68, 137, 160, .75);
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+/*Home Page*/
+header{
+    height: 300px;
+    background-image: url(https://static01.nyt.com/images/2006/08/13/sports/13bulls_farm.jpg?quality=75&auto=webp&disable=upscale);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.intro{
+    width: 400px;
+    height: 236.25px;
+}
+
+/*Nav style*/
+ul{
+    list-style-type: none;
+    font-size: 30px; 
+}
+
+li{
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    text-decoration: none;
+    color:blue;
+}
+
+li a:hover{
+    background-color: red;
+    color: white;
+}
+
+/*For all tables*/
+table{
+    border-spacing: 30px;
+    margin: auto;
+    font-size: 30px;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+td{
+    border-collapse: collapse;
+}
+
+/* Style for entire project*/
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1MjB7HlAjOi5MMm2fNK95M8ZbhjobjfRowg&usqp=CAU);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+
+}
+
+/* Form Style*/
+form{
+    font-size: 25px;
+    color: white;
+}
+
+.f1{
+    border-radius: 5px;
+}
+
+.upload{
+    border-radius: 5px;
+    background-color: green;
+}
+
+/*dropdown Style*/
+select{
+    font-size: 20px;
+}
+
+/*Cowboy Protection*/
+.logo{
+    height: 425px;
+    width: 425px;
+    opacity: 50%;
+}
+
+/*Freestyle*/
+.freestyle{
+    height: 400px;
+    width: 400px;
+    opacity: 50%;
+}
+
+/*Cinch World's Toughest Rodeo*/
+.CWTR{
+    border: black solid 10px;
+}
+
+.tickets{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 45px;
+    color: blue;
+    position: relative;
+    bottom: 258px;
+    right: 175px;
+}
+

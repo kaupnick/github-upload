@@ -1,0 +1,34 @@
+body {
+    background-color: #c0c3c5;
+    text-align: center;
+}
+
+.intro {
+    border: 2px solid #a1a3a7;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 250px;
+}
+
+.quote {
+    background-color: #a1a3a7;
+}
+
+.timeline {
+    text-align: left;
+}
+
+.description {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.a, .b, .c, .d, .e, .f {
+    border: 1px solid #a1a3a7;
+    border-width: 2px;
+}

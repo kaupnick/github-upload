@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StyledSurveyForm</title>
+    <link rel="stylesheet" href="StyledSurveyForm.css">
+</head>
+<body>
+    <div class="pagetitle">
+        <h1>Devslopes Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+   </div>
+    <form>
+        <label for="fullName">Name</label><br>
+        <input type="text" id="name" name="fullName" placeholder="Enter your name" class="name">
+
+        <br><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="Enter your Email" class="email">
+
+        <br><br>
+
+        <label for="age">Age (optional)</label><br>
+        <input type="text" id="age" name="age" placeholder="Age" class="age">
+
+        <br><br>
+
+        <label for="currentrole">Which option best describes your current role?</label><br>
+            <select class="currentrole">
+                <option value="choose">Select current role</option>
+                <option value="student">Student</option>
+                <option value="fullTimeJob">Full Time Job</option>
+                <option value="fullTimeLearner">Full Time Learner</option>
+                <option value="preferNotToSay">Prefer no to say</option>
+                <option value="other">Other</option> 
+            </select>
+
+            <br><br>
+
+            <label for="recommend" class="recommend">Would you recommend Devslopes to a friend?</label><br>
+            <input type="radio" id="definitely" name="definitely">
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" id="maybe" name="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" id="notSure" name="notSure">
+            <label for="notSure">Not Sure</label>
+            
+            <br><br>
+
+            <label for="favoriteFeature" >What is your favorite feature of Devslopes?</label><br>
+                <select class="favoriteFeature">
+                    <option value="select">Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="mentorship">Mentorship</option>
+                </select>
+
+            <br><br>
+
+            <label for="favoriteTopics">What would you like to see improved? (check all that apply)</label><br>
+            
+            <input type="checkbox" id="Front-endProjects" name="Front-endProjects">
+            <label for="Front-endProjects">Front-end Projects</label><br>
+            
+            <input type="checkbox" id="Back-endProjects" name="Back-endProjects">
+            <label for="Back-endProjects">Back-end Projects</label><br>
+
+            <input type="checkbox" id="Challenges" name="Challenges">
+            <label for="Challenges">Challenges</label><br>
+
+            <input type="checkbox" id="Videos" name="Videos">
+            <label for="Videos">Videos</label><br>
+
+            <input type="checkbox" id="OnlineMeetups" name="OnlineMeetups">
+            <label for="OnlineMeetups">Online Meetups</label><br>
+
+            <input type="checkbox" id="Community" name="Community">
+            <label for="Community">Community</label>
+
+            <br><br>
+
+            <label for="commentsOrSuggestions">Any comments or suggestions? </label><br>
+            <textarea name="commentsOrSuggestions" rows="5" cols="30" class="comments" placeholder="Enter your comments here..."></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit" class="submit">
+
+    </form>
+</body>

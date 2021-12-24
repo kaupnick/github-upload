@@ -1,0 +1,47 @@
+* {
+    margin-right:5%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro{
+    text-align: center;
+}
+
+.nameAndSocial {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 21%;
+}
+
+.media {
+    display: flex;
+    justify-content: right;
+}
+
+.introPic {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.start {
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+h1{
+    font-size: 45px;
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 26px;
+}

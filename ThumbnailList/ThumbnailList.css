@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    
+}
+
+img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 100%;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+
+.contact {
+    display: flex;
+    line-height: 40%;
+}
+
+p {
+    color: grey;
+}

@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/b4/dd/7e/b4dd7ee6-5250-700b-08a2-1d538d0d0473/contsched.jdcmulph.lsr/1280x768bb.png);
+    background-attachment: fixed;
+    background-size: cover ;
+
+}
+
+.pagetitle{
+    text-align: center;
+    color: white;
+}
+
+.name, .email, .age, .currentrole, .recommend, .favoriteFeature, textarea{
+    width: 100%;
+}
+
+form{
+    background-color: rgba(83, 24, 138, .9);
+    color: white;
+    text-align: left;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.currentrole, .favoriteFeature, .comments{
+    border-radius: 5px;
+}
+
+.submit{
+    background-color:seagreen;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}

@@ -1,0 +1,180 @@
+/*Entire Project*/
+* {
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+section {
+    margin: 15px;
+    padding: 15px;
+}
+
+h1, h2, h4, sub {
+    color: #6b6b6b;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #999;
+}
+
+/*Nav Bar*/
+li {
+    display: inline;
+    float: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+/*About Us Section*/
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.about p {
+    margin: 10px 15%;
+}
+
+/*Images Section*/
+.images {
+    display: flex;  
+    justify-content: center;
+}
+
+.img {
+    display: grid;
+    grid-template-rows: 300px auto auto;
+    grid-template-columns: 400px;
+    margin: 10px;
+}
+
+.room {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back1 {background-image: url(Pictures/room1.png);}
+.back2 {background-image: url(Pictures/room2.png);}
+.back3 {background-image: url(Pictures/room3.png);}
+
+/*Our Team Section*/
+.OurTeam {
+    text-align: center;
+}
+
+.otDes {
+    margin: 20px 20%;
+}
+
+.otFlexCon {
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 150px;
+    text-align: left;
+    margin: 50px;
+}
+
+.face {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+
+.face1 {background-image: url(Pictures/team1.png);}
+.face2 {background-image: url(Pictures/team2.png);}
+.face3 {background-image: url(Pictures/team3.png);}
+.face4 {background-image: url(Pictures/team4.png);}
+
+.soci {
+    display: flex;
+    opacity: 40%;
+    border-radius: 50px;
+}
+
+/*Footer Section*/
+footer {
+    background-color: #282828;
+    color: #777;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.fb, .tw, .in, .li {padding: 15px;}
+
+.contactinfo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.address {
+    margin: 50px;
+}
+
+.contactinfo h4 {
+    color: white;
+}
+
+hr {
+    background-color: red;
+}
+
+.last {
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #7777;
+}
+
+/*Media Queries*/
+
+/*375px for Mobile Devices*/
+@media all and (max-width: 768px) {
+    .navigation {
+        display: grid;
+        text-align: center;
+    }
+
+    .about {
+        text-align: center;
+    }
+    
+    .images {
+        display: grid;
+        text-align: center;
+    }
+
+    .otFlexCon {
+        display: grid;
+    }
+
+    .socialMedia {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .contactinfo {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+
